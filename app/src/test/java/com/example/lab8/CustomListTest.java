@@ -11,6 +11,7 @@ import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
 
 public class CustomListTest {
+    private ArrayList<City> cities;
     /**
      * this gets size of the list
      * @return
