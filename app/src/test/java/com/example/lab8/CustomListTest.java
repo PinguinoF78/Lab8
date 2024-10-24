@@ -12,6 +12,7 @@ import java.util.ArrayList;
 
 public class CustomListTest {
     private ArrayList<City> cities;
+
     /**
      * this gets size of the list
      * @return
@@ -35,7 +36,8 @@ public class CustomListTest {
      * @return
      */
     public CustomList MockCityList(){
-        list = new CustomList(null,new ArrayList<>());
+        cities = new ArrayList<>();
+        list = new CustomList(null,cities);
         return list;
     }
 
